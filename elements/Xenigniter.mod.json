@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Blackplastic"
+      },
+      {
+        "value": "CUSTOM:Blackplastic"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Battery"
+      },
+      {
+        "value": "CUSTOM:Coil"
+      },
+      {
+        "value": "CUSTOM:Laser"
+      },
+      {
+        "value": "CUSTOM:Blackplastic"
+      },
+      {
+        "value": "CUSTOM:Blackplastic"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Xen2"
+    },
+    "name": "xenigniter2",
+    "namespace": "mod"
+  }
+}

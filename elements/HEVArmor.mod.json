@@ -1,0 +1,82 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "hevhelmet",
+    "enableBody": true,
+    "textureBody": "hevchest",
+    "enableLeggings": true,
+    "textureLeggings": "hevleggins",
+    "enableBoots": true,
+    "textureBoots": "hevboots",
+    "onHelmetTick": {
+      "name": "HEVArmorLeggingsTickEvent"
+    },
+    "onBodyTick": {
+      "name": "HEVArmorLeggingsTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "HEVArmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "HEVArmorLeggingsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:HL"
+    },
+    "armorTextureFile": "hevtest",
+    "helmetName": "HEV Helmet",
+    "bodyName": "HEV Chestplate",
+    "leggingsName": "HEV Leggings",
+    "bootsName": "HEV Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 45,
+    "damageValueHelmet": 10,
+    "damageValueBody": 26,
+    "damageValueLeggings": 30,
+    "damageValueBoots": 10,
+    "enchantability": 50,
+    "toughness": 0.0,
+    "knockbackResistance": 5.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.CONCRETE#1"
+      }
+    ]
+  }
+}

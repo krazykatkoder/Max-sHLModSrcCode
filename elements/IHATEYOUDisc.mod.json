@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "ihy_disc",
+    "description": "VibingLeaf - Luigi",
+    "creativeTab": {
+      "value": "CUSTOM:HL"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:i_hate_you"
+    },
+    "lengthInTicks": 2240,
+    "analogOutput": 0
+  }
+}

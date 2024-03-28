@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hlmod:blackplastic"
+    },
+    "1": {
+      "item": "hlmod:blackplastic"
+    },
+    "2": {
+      "item": "hlmod:blackplastic"
+    },
+    "3": {
+      "item": "minecraft:copper_ingot"
+    },
+    "4": {
+      "item": "minecraft:redstone_block"
+    },
+    "5": {
+      "item": "minecraft:gold_ingot"
+    },
+    "6": {
+      "item": "hlmod:blackplastic"
+    },
+    "7": {
+      "item": "hlmod:blackplastic"
+    },
+    "8": {
+      "item": "hlmod:blackplastic"
+    }
+  },
+  "result": {
+    "item": "hlmod:battery",
+    "count": 1
+  }
+}

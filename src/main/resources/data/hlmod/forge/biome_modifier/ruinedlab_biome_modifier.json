@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hlmod:xenwastelands",
+    "hlmod:xenianlabs"
+  ],
+  "features": "hlmod:ruinedlab",
+  "step": "surface_structures"
+}

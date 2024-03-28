@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hlmod:blackplastic"
+    },
+    "2": {
+      "item": "hlmod:blackplastic"
+    },
+    "3": {
+      "item": "hlmod:blackplastic"
+    },
+    "5": {
+      "item": "hlmod:blackplastic"
+    },
+    "6": {
+      "item": "minecraft:gold_ingot"
+    },
+    "7": {
+      "item": "minecraft:gunpowder"
+    },
+    "8": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "hlmod:he_shell",
+    "count": 8
+  }
+}

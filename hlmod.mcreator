@@ -1,0 +1,3818 @@
+{
+  "mod_elements": [
+    {
+      "name": "XEN",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/XENItem.java",
+          "src/main/resources/assets/hlmod/models/item/xen.json"
+        ]
+      }
+    },
+    {
+      "name": "HEVArmor",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hev_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/hl/item/HEVArmorItem.java",
+          "src/main/resources/assets/hlmod/models/item/hev_armor_chestplate.json",
+          "src/main/resources/assets/hlmod/models/item/hev_armor_helmet.json",
+          "src/main/resources/assets/hlmod/models/item/hev_armor_boots.json",
+          "src/main/resources/assets/hlmod/models/item/hev_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "HEVArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hev_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/hev_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HEVArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hev_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/hev_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HEVArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hev_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/hev_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HEVArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hev_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/hev_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HL",
+      "type": "tab",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hl",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Crowbar",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/crowbar.json",
+          "src/main/java/net/mcreator/hl/item/CrowbarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Xenwastelands",
+      "type": "biome",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenwastelands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/worldgen/configured_feature/xenwastelands_tree.json",
+          "src/main/java/net/mcreator/hl/world/features/treedecorators/XenwastelandsLeaveDecorator.java",
+          "src/main/resources/data/hlmod/worldgen/biome/xenwastelands.json",
+          "src/main/java/net/mcreator/hl/world/features/treedecorators/XenwastelandsTrunkDecorator.java",
+          "src/main/resources/data/hlmod/worldgen/placed_feature/xenwastelands_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Apotheiosis",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apotheiosis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/ApotheiosisItem.java",
+          "src/main/resources/assets/hlmod/models/item/apotheiosis.json"
+        ]
+      }
+    },
+    {
+      "name": "Resonance",
+      "type": "enchantment",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resonance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/enchantment/ResonanceEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Xen2",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_2",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/java/net/mcreator/hl/block/Xen2PortalBlock.java",
+          "src/main/resources/assets/hlmod/models/block/xen_2_portal_ns.json",
+          "src/main/resources/assets/hlmod/models/item/xen_2.json",
+          "src/main/java/net/mcreator/hl/world/dimension/Xen2Dimension.java",
+          "src/main/java/net/mcreator/hl/world/teleporter/Xen2PortalShape.java",
+          "src/main/resources/assets/hlmod/models/block/xen_2_portal_ew.json",
+          "src/main/java/net/mcreator/hl/item/Xen2Item.java",
+          "src/main/resources/data/hlmod/dimension_type/xen_2.json",
+          "src/main/resources/assets/hlmod/blockstates/xen_2_portal.json",
+          "src/main/java/net/mcreator/hl/world/teleporter/Xen2Teleporter.java",
+          "src/main/resources/data/hlmod/dimension/xen_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Firstaid",
+      "type": "potion",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firstaid",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Xenianlabs",
+      "type": "biome",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenianlabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/worldgen/configured_feature/xenianlabs_tree.json",
+          "src/main/java/net/mcreator/hl/world/features/treedecorators/XenianlabsLeaveDecorator.java",
+          "src/main/resources/data/hlmod/worldgen/biome/xenianlabs.json",
+          "src/main/java/net/mcreator/hl/world/features/treedecorators/XenianlabsTrunkDecorator.java",
+          "src/main/resources/data/hlmod/worldgen/placed_feature/xenianlabs_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Ruinedlab",
+      "type": "structure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruinedlab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/world/features/RuinedlabFeature.java",
+          "src/main/resources/data/hlmod/worldgen/configured_feature/ruinedlab.json",
+          "src/main/resources/data/hlmod/worldgen/placed_feature/ruinedlab.json",
+          "src/main/resources/data/hlmod/forge/biome_modifier/ruinedlab_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "HEVArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hev_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/HEVArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xenianmass",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenianmass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/worldgen/configured_feature/xenianmass.json",
+          "src/main/resources/data/hlmod/worldgen/placed_feature/xenianmass.json",
+          "src/main/resources/assets/hlmod/models/item/xenianmass.json",
+          "src/main/resources/assets/hlmod/blockstates/xenianmass.json",
+          "src/main/resources/assets/hlmod/models/block/xenianmass.json",
+          "src/main/java/net/mcreator/hl/block/XenianmassBlock.java",
+          "src/main/resources/data/hlmod/forge/biome_modifier/xenianmass_biome_modifier.json",
+          "src/main/java/net/mcreator/hl/world/features/ores/XenianmassFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "Crowbarrecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbarrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/crowbarrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Buckshot",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buckshot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/BuckshotItem.java",
+          "src/main/resources/assets/hlmod/models/item/buckshot.json"
+        ]
+      }
+    },
+    {
+      "name": "Buckshotrecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buckshotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/buckshotrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ShotgunShell",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_shell_empty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/ShotgunShellItem.java",
+          "src/main/resources/assets/hlmod/models/item/shotgun_shell_empty.json"
+        ]
+      }
+    },
+    {
+      "name": "ShotgunShellFull",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_shell_full",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/shotgun_shell_full.json",
+          "src/main/java/net/mcreator/hl/item/ShotgunShellFullItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Plastic",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/plastic.json",
+          "src/main/java/net/mcreator/hl/item/PlasticItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ShotgunShellRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_shell_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/shotgun_shell_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ShotgunShellFullRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_shell_full_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/shotgun_shell_full_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Laser",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/laser.json",
+          "src/main/java/net/mcreator/hl/item/LaserItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Battery",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/BatteryItem.java",
+          "src/main/resources/assets/hlmod/models/item/battery.json"
+        ]
+      }
+    },
+    {
+      "name": "Coil",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/CoilItem.java",
+          "src/main/resources/assets/hlmod/models/item/coil.json"
+        ]
+      }
+    },
+    {
+      "name": "Coils",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coils",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/coils.json"
+        ]
+      }
+    },
+    {
+      "name": "LaserRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/laser_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Blackplastic",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackplastic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/BlackplasticItem.java",
+          "src/main/resources/assets/hlmod/models/item/blackplastic.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackPlasticRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_plastic_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/black_plastic_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BatteryRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/battery_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Xenigniter",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenigniter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/xenigniter2.json"
+        ]
+      }
+    },
+    {
+      "name": "Spas12ProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spas_12_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/Spas12ProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spas12",
+      "type": "rangeditem",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spas_12",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/Spas12Item.java",
+          "src/main/resources/assets/hlmod/models/item/spas_12.json",
+          "src/main/java/net/mcreator/hl/entity/Spas12Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Xengrass",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xengrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/xengrass.json",
+          "src/main/resources/assets/hlmod/models/block/xengrass.json",
+          "src/main/java/net/mcreator/hl/block/XengrassBlock.java",
+          "src/main/resources/assets/hlmod/blockstates/xengrass.json"
+        ]
+      }
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/bullet.json",
+          "src/main/java/net/mcreator/hl/item/BulletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MP5Bullet",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_5_bullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/mp_5_bullet.json",
+          "src/main/java/net/mcreator/hl/item/MP5BulletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Mp5casing",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_5casing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/Mp5casingItem.java",
+          "src/main/resources/assets/hlmod/models/item/mp_5casing.json"
+        ]
+      }
+    },
+    {
+      "name": "Mp5brecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_5brecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/mp_5brecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Mp5casingrecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_5casingrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/mp_5casingrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Spas12recipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spas_12recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/spas_12recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Mp5",
+      "type": "rangeditem",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/entity/Mp5Entity.java",
+          "src/main/java/net/mcreator/hl/item/Mp5Item.java",
+          "src/main/resources/assets/hlmod/models/item/mp_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Plasticrecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasticrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/plasticrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Mp5bulletRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_5bullet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/mp_5bullet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Mp5Recipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_5_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/mp_5_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumingot",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/uraniumingot.json",
+          "src/main/java/net/mcreator/hl/item/UraniumingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Neutronium",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutronium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/NeutroniumItem.java",
+          "src/main/resources/assets/hlmod/models/item/neutronium.json"
+        ]
+      }
+    },
+    {
+      "name": "NeutroniumStar",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutronium_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/neutronium_star.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneUraniumDiffusion",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_uranium_diffusion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/redstone_uranium_diffusion.json"
+        ]
+      }
+    },
+    {
+      "name": "U235blockBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_235block_block_destroyed_by_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/U235blockBlockDestroyedByExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "U235block",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_235block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/u_235block.json",
+          "src/main/resources/assets/hlmod/blockstates/u_235block.json",
+          "src/main/resources/assets/hlmod/models/block/u_235block.json",
+          "src/main/java/net/mcreator/hl/block/U235blockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Pu256Recipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pu_256_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/pu_256_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeutronRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutron_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/neutron_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DadItemRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dad_item_right_clicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/DadItemRightClickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DadItem",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dad_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/dad_item.json",
+          "src/main/java/net/mcreator/hl/item/DadItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DadItemRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dad_item_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/dad_item_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "U235BlockRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_235_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/u_235_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pu239BlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pu_239_block_destroyed_by_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/Pu239BlockDestroyedByExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pu239",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pu_239",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/blockstates/pu_239.json",
+          "src/main/java/net/mcreator/hl/block/Pu239Block.java",
+          "src/main/resources/assets/hlmod/models/item/pu_239.json",
+          "src/main/resources/assets/hlmod/models/block/pu_239.json"
+        ]
+      }
+    },
+    {
+      "name": "Pu256Ingot",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pu_256_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/pu_256_ingot.json",
+          "src/main/java/net/mcreator/hl/item/Pu256IngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PU256IngotRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pu_256_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/pu_256_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pu256BlockRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pu_256_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/pu_256_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "U235Nugget",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_235_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/U235NuggetItem.java",
+          "src/main/resources/assets/hlmod/models/item/u_235_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "TauBullet",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tau_bullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/tau_bullet.json",
+          "src/main/java/net/mcreator/hl/item/TauBulletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TauCannon",
+      "type": "rangeditem",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tau_cannon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/TauCannonItem.java",
+          "src/main/resources/assets/hlmod/models/item/tau_cannon.json",
+          "src/main/java/net/mcreator/hl/entity/TauCannonEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "UraniumBox",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_box",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/UraniumBoxItem.java",
+          "src/main/resources/assets/hlmod/models/item/uranium_box.json"
+        ]
+      }
+    },
+    {
+      "name": "TauCannonRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tau_cannon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/tau_cannon_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumBoxRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_box_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/uranium_box_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumNuggetRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/uranium_nugget_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumIngotRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/uranium_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pu239BlockRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pu_239_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/pu_239_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "XenCrystalShard",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_crystal_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/XenCrystalShardItem.java",
+          "src/main/resources/assets/hlmod/models/item/xen_crystal_shard.json"
+        ]
+      }
+    },
+    {
+      "name": "XenCrystal",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/block/XenCrystalBlock.java",
+          "src/main/resources/data/hlmod/worldgen/placed_feature/xen_crystal.json",
+          "src/main/resources/assets/hlmod/blockstates/xen_crystal.json",
+          "src/main/resources/assets/hlmod/models/item/xen_crystal.json",
+          "src/main/resources/data/hlmod/worldgen/configured_feature/xen_crystal.json",
+          "src/main/resources/assets/hlmod/models/block/xen_crystal.json",
+          "src/main/resources/data/hlmod/forge/biome_modifier/xen_crystal_biome_modifier.json",
+          "src/main/java/net/mcreator/hl/world/features/ores/XenCrystalFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "XenCrystalRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_crystal_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/xen_crystal_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DetCoreRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "det_core_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/det_core_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Ams",
+      "type": "structure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ams",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/worldgen/configured_feature/ams.json",
+          "src/main/resources/data/hlmod/worldgen/placed_feature/ams.json",
+          "src/main/java/net/mcreator/hl/world/features/AmsFeature.java",
+          "src/main/resources/data/hlmod/forge/biome_modifier/ams_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "NeutronStar",
+      "type": "itemextension",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutron_star",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GrenadeTexurePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade_texure_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/GrenadeTexurePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HLIngredients",
+      "type": "tab",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hl_ingredients",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GrenadeTexure",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade_texure",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/grenade_texure.json",
+          "src/main/java/net/mcreator/hl/item/GrenadeTexureItem.java"
+        ]
+      }
+    },
+    {
+      "name": "M203GrenadeProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203_grenade_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/M203GrenadeProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "M203GrenadeAmmo",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203_grenade_ammo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/m_203_grenade_ammo.json",
+          "src/main/java/net/mcreator/hl/item/M203GrenadeAmmoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HLWeapons",
+      "type": "tab",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hl_weapons",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "M203Grenade",
+      "type": "rangeditem",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203_grenade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/M203GrenadeItem.java",
+          "src/main/resources/assets/hlmod/models/item/m_203_grenade.json",
+          "src/main/java/net/mcreator/hl/entity/M203GrenadeEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "M203RoundHE",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203_round_he",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/m_203_round_he.json"
+        ]
+      }
+    },
+    {
+      "name": "M203Launcher",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203_launcher",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/m_203_launcher.json"
+        ]
+      }
+    },
+    {
+      "name": "GrenadeRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/grenade_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HEShell",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_shell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/HEShellItem.java",
+          "src/main/resources/assets/hlmod/models/item/he_shell.json"
+        ]
+      }
+    },
+    {
+      "name": "HERound",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_round",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/he_round.json"
+        ]
+      }
+    },
+    {
+      "name": "M203BuckShot",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203_buck_shot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/M203BuckShotItem.java",
+          "src/main/resources/assets/hlmod/models/item/m_203_buck_shot.json"
+        ]
+      }
+    },
+    {
+      "name": "BuckShotShell",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buck_shot_shell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/buck_shot_shell.json",
+          "src/main/java/net/mcreator/hl/item/BuckShotShellItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BuckShotShellRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buck_shot_shell_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/buck_shot_shell_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "M203BuckshotRound",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203_buckshot_round",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/m_203_buckshot_round.json"
+        ]
+      }
+    },
+    {
+      "name": "M203SteelSlug",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203_steel_slug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/M203SteelSlugItem.java",
+          "src/main/resources/assets/hlmod/models/item/m_203_steel_slug.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelslugShell",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelslug_shell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/SteelslugShellItem.java",
+          "src/main/resources/assets/hlmod/models/item/steelslug_shell.json"
+        ]
+      }
+    },
+    {
+      "name": "KARLSON",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "karlson",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/karlson.json"
+        ]
+      }
+    },
+    {
+      "name": "M23SteelSlugRound",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_23_steel_slug_round",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/m_23_steel_slug_round.json"
+        ]
+      }
+    },
+    {
+      "name": "M203BuckShotMod",
+      "type": "rangeditem",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203_buck_shot_mod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/m_203_buck_shot_mod.json",
+          "src/main/java/net/mcreator/hl/entity/M203BuckShotModEntity.java",
+          "src/main/java/net/mcreator/hl/item/M203BuckShotModItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelSlug",
+      "type": "item",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_slug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/SteelSlugItem.java",
+          "src/main/resources/assets/hlmod/models/item/steel_slug.json"
+        ]
+      }
+    },
+    {
+      "name": "M203SteelSlugMod",
+      "type": "rangeditem",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203_steel_slug_mod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/entity/M203SteelSlugModEntity.java",
+          "src/main/resources/assets/hlmod/models/item/m_203_steel_slug_mod.json",
+          "src/main/java/net/mcreator/hl/item/M203SteelSlugModItem.java"
+        ]
+      }
+    },
+    {
+      "name": "M203Slugmod",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203_slugmod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/m_203_slugmod.json"
+        ]
+      }
+    },
+    {
+      "name": "M203buckmod",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_203buckmod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/m_203buckmod.json"
+        ]
+      }
+    },
+    {
+      "name": "HEVArmorLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hev_armor_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/HEVArmorLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PCVVest",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcv_vest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/pcv_vest_leggings.json",
+          "src/main/resources/assets/hlmod/models/item/pcv_vest_boots.json",
+          "src/main/resources/assets/hlmod/models/item/pcv_vest_helmet.json",
+          "src/main/resources/assets/hlmod/models/item/pcv_vest_chestplate.json",
+          "src/main/java/net/mcreator/hl/item/PCVVestItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SUITBATTERYPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suitbattery_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/SUITBATTERYPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SUITBATTERY",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suitbattery",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/suitbattery.json",
+          "src/main/java/net/mcreator/hl/item/SUITBATTERYItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PcvbootsRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcvboots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/pcvboots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PcvvestRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcvvest_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/pcvvest_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PcvhelmetRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcvhelmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/pcvhelmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PcvlegginsRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcvleggins_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/pcvleggins_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RocketLauncherWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/RocketLauncherWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RocketLauncherProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/RocketLauncherProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RPGROCKETPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpgrocket_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/RPGROCKETPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RPGROCKET",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpgrocket",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/rpgrocket.json",
+          "src/main/java/net/mcreator/hl/item/RPGROCKETItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RocketLauncher",
+      "type": "rangeditem",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/rocket_launcher.json",
+          "src/main/java/net/mcreator/hl/entity/RocketLauncherEntity.java",
+          "src/main/java/net/mcreator/hl/item/RocketLauncherItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RPGROCKETRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpgrocket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/rpgrocket_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RPGFRAGPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpgfrag_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/RPGFRAGPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RPGFRAG",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpgfrag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/rpgfrag.json",
+          "src/main/java/net/mcreator/hl/item/RPGFRAGItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RPGFRAGRECIPE",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpgfragrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/rpgfragrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RPGFRAGMODProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpgfragmod_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/RPGFRAGMODProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RPGFRAGMOD",
+      "type": "rangeditem",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpgfragmod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/RPGFRAGMODItem.java",
+          "src/main/resources/assets/hlmod/models/item/rpgfragmod.json",
+          "src/main/java/net/mcreator/hl/entity/RPGFRAGMODEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "RPGRECIPE",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpgrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/rpgrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RPGFRAGMODRECIPE",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpgfragmodrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/rpgfragmodrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RPGRECYcle",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpgrec_ycle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/rpgrecycle.json"
+        ]
+      }
+    },
+    {
+      "name": "HORNET",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hornet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/hornet.json",
+          "src/main/java/net/mcreator/hl/item/HORNETItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HIVEHAND",
+      "type": "rangeditem",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hivehand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/entity/HIVEHANDEntity.java",
+          "src/main/resources/assets/hlmod/models/item/hivehand.json",
+          "src/main/java/net/mcreator/hl/item/HIVEHANDItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HIVEHANDRECIPE",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hivehandrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/hivehandrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IMPROB",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "improb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/improb.json",
+          "src/main/java/net/mcreator/hl/item/IMPROBItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KevlarArmor",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kevlar_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/kevlar_armor_helmet.json",
+          "src/main/resources/assets/hlmod/models/item/kevlar_armor_boots.json",
+          "src/main/java/net/mcreator/hl/item/KevlarArmorItem.java",
+          "src/main/resources/assets/hlmod/models/item/kevlar_armor_chestplate.json",
+          "src/main/resources/assets/hlmod/models/item/kevlar_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "KevlarArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kevlar_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/kevlar_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KevlarArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kevlar_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/kevlar_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KevlarArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kevlar_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/kevlar_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KevlarArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kevlar_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/kevlar_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Xen2PlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_2_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/Xen2PlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xen2PlayerLeavesDimension",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_2_player_leaves_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/Xen2PlayerLeavesDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "W33WarheadRedstoneOn",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "w_33_warhead_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/W33WarheadRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "W33Warhead",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "w_33_warhead",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/block/w_33_warhead.json",
+          "src/main/resources/assets/hlmod/models/item/w_33_warhead.json",
+          "src/main/java/net/mcreator/hl/block/W33WarheadBlock.java",
+          "src/main/resources/assets/hlmod/blockstates/w_33_warhead.json"
+        ]
+      }
+    },
+    {
+      "name": "NukeCorePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke_core_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/NukeCorePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NukeCore",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/NukeCoreItem.java",
+          "src/main/resources/assets/hlmod/models/item/nuke_core.json"
+        ]
+      }
+    },
+    {
+      "name": "GluonFire",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gluon_fire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/GluonFireItem.java",
+          "src/main/resources/assets/hlmod/models/item/gluon_fire.json"
+        ]
+      }
+    },
+    {
+      "name": "GluonGun",
+      "type": "rangeditem",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gluon_gun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/gluon_gun.json",
+          "src/main/java/net/mcreator/hl/entity/GluonGunEntity.java",
+          "src/main/java/net/mcreator/hl/item/GluonGunItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GluonRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gluon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/gluon_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NineMMPistol",
+      "type": "rangeditem",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_mm_pistol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/NineMMPistolItem.java",
+          "src/main/java/net/mcreator/hl/entity/NineMMPistolEntity.java",
+          "src/main/resources/assets/hlmod/models/item/nine_mm_pistol.json"
+        ]
+      }
+    },
+    {
+      "name": "NineMMPistolRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_mm_pistol_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/nine_mm_pistol_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnumCartridge",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnum_cartridge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/MagnumCartridgeItem.java",
+          "src/main/resources/assets/hlmod/models/item/magnum_cartridge.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnumCasing",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnum_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/magnum_casing.json",
+          "src/main/java/net/mcreator/hl/item/MagnumCasingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagnumBullet",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnum_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/MagnumBulletItem.java",
+          "src/main/resources/assets/hlmod/models/item/magnum_bullet.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnumCasingRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnum_casing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/magnum_casing_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnumBulletRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnum_bullet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/magnum_bullet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnumCartridgeRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnum_cartridge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/magnum_cartridge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnumRevolver",
+      "type": "rangeditem",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnum_revolver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/magnum_revolver.json",
+          "src/main/java/net/mcreator/hl/item/MagnumRevolverItem.java",
+          "src/main/java/net/mcreator/hl/entity/MagnumRevolverEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelMIx",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_m_ix",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/steel_m_ix.json",
+          "src/main/java/net/mcreator/hl/item/SteelMIxItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/SteelIngotItem.java",
+          "src/main/resources/assets/hlmod/models/item/steel_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/steel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelMixRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_mix_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/steel_mix_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelMixRecipeAlt",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_mix_recipe_alt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/steel_mix_recipe_alt.json"
+        ]
+      }
+    },
+    {
+      "name": "RevolverRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolver_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/revolver_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "XenianCrash",
+      "type": "biome",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenian_crash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/world/features/treedecorators/XenianCrashTrunkDecorator.java",
+          "src/main/resources/data/hlmod/worldgen/placed_feature/xenian_crash_tree.json",
+          "src/main/resources/data/hlmod/worldgen/configured_feature/xenian_crash_tree.json",
+          "src/main/java/net/mcreator/hl/world/features/treedecorators/XenianCrashLeaveDecorator.java",
+          "src/main/resources/data/hlmod/worldgen/biome/xenian_crash.json"
+        ]
+      }
+    },
+    {
+      "name": "XenPocket",
+      "type": "biome",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pocket",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/worldgen/placed_feature/xen_pocket_tree.json",
+          "src/main/resources/data/hlmod/worldgen/configured_feature/xen_pocket_tree.json",
+          "src/main/resources/data/hlmod/worldgen/biome/xen_pocket.json",
+          "src/main/java/net/mcreator/hl/world/features/treedecorators/XenPocketTrunkDecorator.java",
+          "src/main/java/net/mcreator/hl/world/features/treedecorators/XenPocketLeaveDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "XenPocket2",
+      "type": "biome",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pocket_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/world/features/treedecorators/XenPocket2LeaveDecorator.java",
+          "src/main/resources/data/hlmod/worldgen/placed_feature/xen_pocket_2_tree.json",
+          "src/main/resources/data/hlmod/worldgen/biome/xen_pocket_2.json",
+          "src/main/resources/data/hlmod/worldgen/configured_feature/xen_pocket_2_tree.json",
+          "src/main/java/net/mcreator/hl/world/features/treedecorators/XenPocket2TrunkDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "XenianPocketDimension",
+      "type": "dimension",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenian_pocket_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/world/teleporter/XenianPocketDimensionTeleporter.java",
+          "src/main/resources/data/hlmod/dimension_type/xenian_pocket_dimension.json",
+          "src/main/java/net/mcreator/hl/item/XenianPocketDimensionItem.java",
+          "src/main/resources/assets/hlmod/models/block/xenian_pocket_dimension_portal_ew.json",
+          "src/main/java/net/mcreator/hl/world/dimension/XenianPocketDimensionDimension.java",
+          "src/main/resources/assets/hlmod/models/item/xenian_pocket_dimension.json",
+          "src/main/resources/assets/hlmod/models/block/xenian_pocket_dimension_portal_ns.json",
+          "src/main/java/net/mcreator/hl/block/XenianPocketDimensionPortalBlock.java",
+          "src/main/resources/data/hlmod/dimension/xenian_pocket_dimension.json",
+          "src/main/resources/assets/hlmod/blockstates/xenian_pocket_dimension_portal.json",
+          "src/main/java/net/mcreator/hl/world/teleporter/XenianPocketDimensionPortalShape.java"
+        ]
+      }
+    },
+    {
+      "name": "HL2",
+      "type": "achievement",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hl_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/advancements/hl_2.json"
+        ]
+      }
+    },
+    {
+      "name": "HevMk4",
+      "type": "achievement",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hev_mk_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/advancements/hev_mk_4.json"
+        ]
+      }
+    },
+    {
+      "name": "CatchMeLater",
+      "type": "achievement",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catch_me_later",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/advancements/catch_me_later.json"
+        ]
+      }
+    },
+    {
+      "name": "Unforseen",
+      "type": "achievement",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unforseen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/advancements/unforseen.json"
+        ]
+      }
+    },
+    {
+      "name": "WeveGotHostiles",
+      "type": "achievement",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weve_got_hostiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/advancements/weve_got_hostiles.json"
+        ]
+      }
+    },
+    {
+      "name": "QuestionableEthics",
+      "type": "achievement",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "questionable_ethics",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/advancements/questionable_ethics.json"
+        ]
+      }
+    },
+    {
+      "name": "LambdaCore",
+      "type": "achievement",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lambda_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/advancements/lambda_core.json"
+        ]
+      }
+    },
+    {
+      "name": "WelcomeToXen",
+      "type": "achievement",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_to_xen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/advancements/welcome_to_xen.json"
+        ]
+      }
+    },
+    {
+      "name": "CoffeePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/CoffeePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coffee",
+      "type": "item",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/CoffeeItem.java",
+          "src/main/resources/assets/hlmod/models/item/coffee.json"
+        ]
+      }
+    },
+    {
+      "name": "Cup",
+      "type": "item",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/cup.json",
+          "src/main/java/net/mcreator/hl/item/CupItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CoffeRecipe",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/coffe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WeInXen",
+      "type": "achievement",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "we_in_xen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/advancements/we_in_xen.json"
+        ]
+      }
+    },
+    {
+      "name": "CoffeeNeat",
+      "type": "achievement",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_neat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/advancements/coffee_neat.json"
+        ]
+      }
+    },
+    {
+      "name": "SpaceCoffee",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_coffee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/SpaceCoffeeItem.java",
+          "src/main/resources/assets/hlmod/models/item/space_coffee.json"
+        ]
+      }
+    },
+    {
+      "name": "SpaceCoffeePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_coffee_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/SpaceCoffeePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XenianPocketDimensionPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenian_pocket_dimension_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/XenianPocketDimensionPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XeniumIdiode",
+      "type": "block",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenium_idiode",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/block/xenium_idiode.json",
+          "src/main/resources/assets/hlmod/models/item/xenium_idiode.json",
+          "src/main/resources/assets/hlmod/blockstates/xenium_idiode.json",
+          "src/main/java/net/mcreator/hl/block/XeniumIdiodeBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "XeniodideRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xeniodide_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/xeniodide_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NukeCoreRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke_core_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/nuke_core_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "W33NukeRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "w_33_nuke_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/w_33_nuke_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "W33WarheadOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "w_33_warhead_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/W33WarheadOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BoomBoxRightclicked",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boom_box_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/BoomBoxRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BoomBox",
+      "type": "item",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boom_box",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/BoomBoxItem.java",
+          "src/main/resources/assets/hlmod/models/item/boom_box.json"
+        ]
+      }
+    },
+    {
+      "name": "BoomBoxRecipe",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boom_box_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/boom_box_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GluonGunRangedItemUsed",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gluon_gun_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/GluonGunRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XenThe2nd",
+      "type": "achievement",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_the_2nd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/advancements/xen_the_2nd.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackMesaResearchFacilityPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_mesa_research_facility_property_value_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/BlackMesaResearchFacilityPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackMesaResearchFacilityItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_mesa_research_facility_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/BlackMesaResearchFacilityItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackMesaResearchFacility",
+      "type": "item",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_mesa_research_facility",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/BlackMesaResearchFacilityItem.java",
+          "src/main/resources/assets/hlmod/models/item/black_mesa_research_facility_1.json",
+          "src/main/resources/assets/hlmod/models/item/black_mesa_research_facility_0.json",
+          "src/main/resources/assets/hlmod/models/item/black_mesa_research_facility.json"
+        ]
+      }
+    },
+    {
+      "name": "Grenade",
+      "type": "rangeditem",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/grenade.json",
+          "src/main/java/net/mcreator/hl/entity/GrenadeEntity.java",
+          "src/main/java/net/mcreator/hl/item/GrenadeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GrenadeWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/GrenadeWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GrenadeProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/GrenadeProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Snark",
+      "type": "rangeditem",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/snark.json",
+          "src/main/java/net/mcreator/hl/item/SnarkItem.java",
+          "src/main/java/net/mcreator/hl/entity/SnarkEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SnarkProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snark_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/SnarkProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TranquilizerDart",
+      "type": "item",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tranquilizer_dart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/TranquilizerDartItem.java",
+          "src/main/resources/assets/hlmod/models/item/tranquilizer_dart.json"
+        ]
+      }
+    },
+    {
+      "name": "CrossbowProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crossbow_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/CrossbowProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crossbow",
+      "type": "rangeditem",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crossbow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/crossbow.json",
+          "src/main/java/net/mcreator/hl/entity/CrossbowEntity.java",
+          "src/main/java/net/mcreator/hl/item/CrossbowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Satchel",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satchel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/satchel.json",
+          "src/main/resources/assets/hlmod/blockstates/satchel.json",
+          "src/main/resources/assets/hlmod/models/block/satchel.json",
+          "src/main/java/net/mcreator/hl/block/SatchelBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SatchelRedstoneOn",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satchel_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/SatchelRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Detonator",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detonator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/detonator.json",
+          "src/main/java/net/mcreator/hl/item/DetonatorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DetonatorRightclicked",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detonator_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/DetonatorRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SnarkProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snark_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/SnarkProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SnarkProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snark_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/SnarkProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BMRF",
+      "type": "command",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bmrf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/command/BMRFCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "IHATEYOUDisc",
+      "type": "musicdisc",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ihateyou_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/ihateyou_disc.json",
+          "src/main/java/net/mcreator/hl/item/IHATEYOUDiscItem.java"
+        ]
+      }
+    },
+    {
+      "name": "XenInstdisc",
+      "type": "musicdisc",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_instdisc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/item/XenInstdiscItem.java",
+          "src/main/resources/assets/hlmod/models/item/xen_instdisc.json"
+        ]
+      }
+    },
+    {
+      "name": "MK2GrenadeRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mk_2_grenade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/mk_2_grenade_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SnarkRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snark_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/snark_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DetRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "det_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/det_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnumRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnum_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/magnum_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CupRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cup_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/cup_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DartRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dart_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/dart_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BMRFCrossbowRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bmrf_crossbow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/bmrf_crossbow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IHYDisc",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ihy_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/ihy_disc.json"
+        ]
+      }
+    },
+    {
+      "name": "IHYDiscRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ihy_disc_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/ihy_disc_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FragNade",
+      "type": "rangeditem",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frag_nade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hlmod/models/item/frag_nade.json",
+          "src/main/java/net/mcreator/hl/item/FragNadeItem.java",
+          "src/main/java/net/mcreator/hl/entity/FragNadeEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "FragNadeProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frag_nade_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hl/procedures/FragNadeProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FragNadeRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frag_nade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hlmod/recipes/frag_nade_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "apotheiosis",
+      "files": [
+        "qauntum_apotheosis_1"
+      ],
+      "category": "record",
+      "subtitle": "Apotheiosis plays"
+    },
+    {
+      "name": "xen",
+      "files": [
+        "xen"
+      ],
+      "category": "record",
+      "subtitle": "Xen plays"
+    },
+    {
+      "name": "impropable",
+      "files": [
+        "impropab"
+      ],
+      "category": "record",
+      "subtitle": "Improbable  Outcome plays"
+    },
+    {
+      "name": "taushot",
+      "files": [
+        "untitled"
+      ],
+      "category": "player",
+      "subtitle": "Tau Cannon shot"
+    },
+    {
+      "name": "mp5shot",
+      "files": [
+        "untitled2"
+      ],
+      "category": "player",
+      "subtitle": "MP5 shot"
+    },
+    {
+      "name": "hiveshot",
+      "files": [
+        "untitled14"
+      ],
+      "category": "player",
+      "subtitle": "HiveHand shot"
+    },
+    {
+      "name": "rpgshot",
+      "files": [
+        "untitled7"
+      ],
+      "category": "player",
+      "subtitle": "Rocket launcher shot"
+    },
+    {
+      "name": "grenadelaunch",
+      "files": [
+        "untitled15"
+      ],
+      "category": "player",
+      "subtitle": "Grenade launched"
+    },
+    {
+      "name": "shotgun_blast",
+      "files": [
+        "untitled3"
+      ],
+      "category": "player",
+      "subtitle": "Shotgun blast"
+    },
+    {
+      "name": "gluonfire",
+      "files": [
+        "untitled11"
+      ],
+      "category": "player",
+      "subtitle": "Gluon fire"
+    },
+    {
+      "name": "ninemmshot",
+      "files": [
+        "untitled6"
+      ],
+      "category": "player",
+      "subtitle": "9MM shot"
+    },
+    {
+      "name": "magnumshot",
+      "files": [
+        "untitled5"
+      ],
+      "category": "player",
+      "subtitle": ".357 Magnum shot"
+    },
+    {
+      "name": "scientiststahp",
+      "files": [
+        "untitled"
+      ],
+      "category": "neutral",
+      "subtitle": "Stop!!!"
+    },
+    {
+      "name": "scientistdead",
+      "files": [
+        "untitledahhh"
+      ],
+      "category": "neutral",
+      "subtitle": "Scientist death"
+    },
+    {
+      "name": "i_hate_you",
+      "files": [
+        "i_hate_you"
+      ],
+      "category": "neutral",
+      "subtitle": "Ignited Hatred Boss Theme plays"
+    },
+    {
+      "name": "xen_inst",
+      "files": [
+        "xen_-_instrumental"
+      ],
+      "category": "neutral",
+      "subtitle": "Xen - Instrumental plays"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.hlmod.u_235_nugget": "U235 Nugget",
+      "subtitles.ninemmshot": "9MM shot",
+      "block.hlmod.xen_crystal": "Xen Crystal",
+      "advancements.we_in_xen.title": "Welcome To Xen,",
+      "biome.hlmod.xen_pocket_2": "Xen wastelands",
+      "item.hlmod.mp_5_bullet": "9MM Bullet Cartridge",
+      "item.hlmod.buckshot": "Buckshot",
+      "item.hlmod.crowbar": "Crowbar",
+      "subtitles.impropable": "Improbable  Outcome plays",
+      "item.hlmod.m_203_buck_shot_mod": "M203 BuckShot Mod",
+      "item.hlmod.coil": "Coil",
+      "item.minecraft.splash_potion.effect.firstaid": "Ranged First aid kit",
+      "item.hlmod.m_203_grenade": "M203 Grenade Launcher",
+      "subtitles.magnumshot": ".357 Magnum shot",
+      "item.test.hev_armor_boots": "HEV Boots",
+      "item.hlmod.kevlar_armor_chestplate": "Kevlar Chestplate",
+      "advancements.coffee_neat.descr": "There was coffee",
+      "item.hlmod.uraniumingot": "Uranium Sheet",
+      "subtitles.scientiststahp": "Stop!!!",
+      "biome.hlmod.xenianlabs": "Xenianlabs",
+      "block.hlmod.xenium_idiode": "Xenium Idiode",
+      "subtitles.rpgshot": "Rocket launcher shot",
+      "advancements.xen_the_2nd.title": "We\u0027re in Xen.",
+      "item.hlmod.rpgfragmod": "RPG Frag Mod",
+      "item.hlmod.magnum_casing": ".357 Magnum Casing",
+      "item.hlmod.hev_armor_leggings": "HEV Leggings",
+      "subtitles.grenadelaunch": "Grenade launched",
+      "item.hlmod.hivehand": "HiveHand",
+      "biome.hlmod.xen_pocket": "XenianCrash",
+      "advancements.catch_me_later.descr": "I\u0027ll buy you a beer",
+      "item.hlmod.coffee": "Coffee",
+      "item.hlmod.xen": "Music Disc",
+      "item.hlmod.snark": "Snark",
+      "enchantment.test.resonance": "Resonance",
+      "itemGroup.tabhl": "HL",
+      "advancements.welcome_to_xen.descr": "It\u0027s going to be a long drive there.",
+      "item.hlmod.m_203_grenade_ammo": "M203 Grenade Ammo",
+      "advancements.hev_mk_4.descr": "Welcome to the HEV mark 4 Protective systems.",
+      "item.hlmod.spas_12": "Spas-12",
+      "item.hlmod.hev_armor_helmet": "HEV Helmet",
+      "item.test.xen.desc": "XEN - 1DRIVE_DESTRUCTOR",
+      "item.hlmod.improb.desc": "1DRIVE_DESTRUCTOR - IMPROBABILITY WEAPON",
+      "item.hlmod.blackplastic": "Blackplastic",
+      "item.hlmod.magnum_revolver": ".357 Magnum Revolver",
+      "item.hlmod.kevlar_armor_leggings": "Kevlar Leggings",
+      "item.hlmod.neutronium": "Neutronium",
+      "item.hlmod.xenian_pocket_dimension": "Xenian Pocket Dimension Portal Igniter",
+      "advancements.questionable_ethics.title": "Questionable Ethics",
+      "item_group.hlmod.hl": "HL",
+      "item.hlmod.shotgun_shell_full": "12G Shotgun Shell",
+      "item.hlmod.pcv_vest_chestplate": "PCV Vest",
+      "advancements.unforseen.descr": "Prepare for them.",
+      "item.hlmod.steel_ingot": "Steel Ingot",
+      "item.hlmod.plastic": "Plastic",
+      "subtitles.shotgun_blast": "Shotgun blast",
+      "advancements.xen_the_2nd.descr": "That was a long drive.",
+      "item_group.hlmod.hl_ingredients": "HL Ingredients",
+      "advancements.unforseen.title": "Unforeseen Consequences",
+      "item.hlmod.cup": "Empty Coffee Cup",
+      "item.hlmod.grenade": "Mk 2 Hand Grenade",
+      "subtitles.xen_inst": "Xen - Instrumental plays",
+      "item.hlmod.xen_instdisc.desc": "Xen - Instrumental",
+      "item.hlmod.xen.desc": "XEN - 1DRIVE_DESTRUCTOR",
+      "block.hlmod.xengrass": "Xengrass",
+      "advancements.hl_2.descr": "The Black Mesa research facility is here.",
+      "item.hlmod.steel_slug": "Steel Slug",
+      "item.hlmod.steelslug_shell": "40MM Steel Slug Shell",
+      "item.hlmod.boom_box": "Boombox",
+      "item.hlmod.hev_armor_boots": "HEV Boots",
+      "advancements.weve_got_hostiles.descr": "Spam left-click.",
+      "item.hlmod.bullet": "9MM Bullet",
+      "subtitles.gluonfire": "Gluon fire",
+      "item.hlmod.mp_5": "MP5",
+      "item.hlmod.crossbow": "Tranquilizer Crossbow",
+      "item.hlmod.improb": "IMPROBABILITY WEAPON",
+      "item.hlmod.detonator": "Detonator",
+      "item.hlmod.nuke_core": "Nuclear Bomb Core",
+      "item.hlmod.m_203_buck_shot": "M203 BuckShot Round",
+      "item.hlmod.shotgun_shell_empty": "Empty 12G Shotgun Shell",
+      "item.hlmod.battery": "Battery",
+      "advancements.hev_mk_4.title": "Hev Mk. 4",
+      "item.hlmod.buck_shot_shell": "40MM Buckshot Shell",
+      "item.hlmod.suitbattery": "SUIT BATTERY",
+      "item.hlmod.pu_256_ingot": "Plutonium 256 Ingot",
+      "item.hlmod.dad_item": "Dedicated to my Dad, Scott.",
+      "block.hlmod.xenianmass": "Xenian mass",
+      "biome.hlmod.xenwastelands": "Xen wastelands",
+      "item.hlmod.space_coffee": "Space Coffee",
+      "advancements.weve_got_hostiles.title": "We\u0027ve Got Hostiles",
+      "item.hlmod.tranquilizer_dart": "Tranquilizer Dart",
+      "enchantment.hlmod.resonance": "Resonance",
+      "item.hlmod.tau_bullet": "Tau Bullet",
+      "block.hlmod.pu_239": "Plutonium 239 Block",
+      "advancements.hl_2.title": "Welcome to Black Mesa!",
+      "item.hlmod.xen_2": "Xen Portal Igniter",
+      "item.hlmod.grenade_texure": "40MM M203 High Explosive Projectile",
+      "item.hlmod.pcv_vest_boots": "PCV Boots",
+      "item.hlmod.gluon_fire": "Gluon Fire",
+      "block.hlmod.u_235block": "Uranium 235 Block",
+      "item.hlmod.rpgrocket": "RPG ROCKET",
+      "biome.test.xenwastelands": "Xen wastelands",
+      "advancements.we_in_xen.descr": "Will there be coffee? - Hank Green",
+      "item.hlmod.magnum_cartridge": ".357 Magnum Cartridge",
+      "item_group.hlmod.hl_weapons": "HL Weapons",
+      "item.hlmod.m_203_steel_slug_mod": "M203 Steel Slug Mod",
+      "subtitles.i_hate_you": "Ignited Hatred Boss Theme plays",
+      "item.hlmod.ihateyou_disc.desc": "VibingLeaf - Luigi",
+      "item.hlmod.pcv_vest_helmet": "PCV Helmet",
+      "item.hlmod.nine_mm_pistol": "9MM Pistol",
+      "item.hlmod.laser": "Laser Diode",
+      "block.hlmod.w_33_warhead": "W33 Warhead",
+      "advancements.welcome_to_xen.title": "Lets Go To Xen,",
+      "item.hlmod.m_203_steel_slug": "M203 Steel Slug",
+      "item.hlmod.magnum_bullet": ".357 Magnum Bullet",
+      "item.test.apotheiosis": "Music Disc",
+      "item.hlmod.black_mesa_research_facility": "Black Mesa Research Facility",
+      "item.hlmod.he_shell": "40MM HE Grenade Shell",
+      "item.hlmod.rocket_launcher": "Rocket Launcher",
+      "item.hlmod.steel_m_ix": "Steel Mix",
+      "advancements.lambda_core.descr": "Hope you got your geiger counter on you.",
+      "subtitles.scientistdead": "Scientist death",
+      "item.minecraft.lingering_potion.effect.firstaid": "Repeating First aid kit",
+      "item.minecraft.tipped_arrow.effect.firstaid": "First aid arrow",
+      "item.test.hev_armor_helmet": "HEV Helmet",
+      "advancements.lambda_core.title": "Lambda Core",
+      "subtitles.apotheiosis": "Apotheiosis plays",
+      "item.hlmod.xen_crystal_shard": "Xen Crystal Shard",
+      "item.hlmod.kevlar_armor_helmet": "Kevlar Helmet",
+      "item.hlmod.xen_instdisc": "Music Disc",
+      "subtitles.xen": "Xen ",
+      "item.hlmod.hev_armor_chestplate": "HEV Chestplate",
+      "subtitles.taushot": "Tau Cannon shot",
+      "item.hlmod.uranium_box": "Depleted Uranium Box",
+      "item.hlmod.hornet": "HORNET",
+      "item.hlmod.mp_5casing": "9MM Casing",
+      "subtitles.hiveshot": "HiveHand shot",
+      "item.hlmod.ihateyou_disc": "Music Disc",
+      "item.hlmod.tau_cannon": "Tau Cannon",
+      "item.hlmod.gluon_gun": "Gluon Gun",
+      "item.test.xen": "Music Disc",
+      "item.test.apotheiosis.desc": "Apotheiosis - 1DRIVE_DESTRUCTOR",
+      "item.test.crowbar": "Crowbar",
+      "block.hlmod.satchel": "Satchel",
+      "advancements.catch_me_later.title": "Catch Me Later",
+      "item.hlmod.pcv_vest_leggings": "PCV Leggings",
+      "item.hlmod.kevlar_armor_boots": "Kevlar Boots",
+      "item.hlmod.apotheiosis": "Music Disc",
+      "item.hlmod.frag_nade": "Mk 2 Fragmentation Grenade",
+      "item.hlmod.rpgfrag": "RPG Fragmentation rocket",
+      "advancements.questionable_ethics.descr": "Just add water!!!",
+      "item.minecraft.potion.effect.firstaid": "First aid kit",
+      "item.hlmod.apotheiosis.desc": "Apotheiosis - 1DRIVE_DESTRUCTOR",
+      "item.test.hev_armor_leggings": "HEV Leggings",
+      "item.test.hev_armor_chestplate": "HEV Chestplate",
+      "biome.hlmod.xenian_crash": "XenianCrash",
+      "subtitles.mp5shot": "MP5 shot",
+      "advancements.coffee_neat.title": "huh, neat."
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hlmod",
+    "modName": "Max\u0027s Half-Life Mod",
+    "version": "5.0.0",
+    "description": "max\u0027s half life inspired mod",
+    "author": "Maxwell, AKA krazykatkoder",
+    "websiteURL": "https://mcreator.net",
+    "license": "Public Domain",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "th",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.hl",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

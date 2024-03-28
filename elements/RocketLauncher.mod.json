@@ -1,0 +1,46 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "rpg",
+    "customModelName": "Normal",
+    "name": "Rocket Launcher",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HLWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:RPGROCKET"
+    },
+    "shootConstantly": false,
+    "usageCount": 1024,
+    "actionSound": {
+      "value": "CUSTOM:rpgshot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 25.0,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:RPGROCKET"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    }
+  }
+}

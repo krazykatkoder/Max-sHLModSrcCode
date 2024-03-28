@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "hlmod:hev_armor_helmet"
+    },
+    "title": {
+      "translate": "advancements.hev_mk_4.title"
+    },
+    "description": {
+      "translate": "advancements.hev_mk_4.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hev_mk_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hlmod:hev_armor_helmet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "hlmod:hl_2"
+}

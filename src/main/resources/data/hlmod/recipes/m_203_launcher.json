@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:red_stained_glass_pane"
+    },
+    "3": {
+      "item": "minecraft:gold_nugget"
+    },
+    "4": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "5": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "6": {
+      "item": "hlmod:blackplastic"
+    },
+    "7": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "hlmod:m_203_grenade",
+    "count": 1
+  }
+}

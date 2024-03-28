@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hlmod:he_shell"
+    }
+  ],
+  "result": {
+    "item": "hlmod:buck_shot_shell",
+    "count": 1
+  }
+}

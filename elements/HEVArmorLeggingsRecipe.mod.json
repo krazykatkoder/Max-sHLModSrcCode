@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": "Items.NETHERITE_LEGGINGS"
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HEVArmor.legs"
+    },
+    "name": "hev_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

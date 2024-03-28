@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "hlmod:xen_crystal_shard"
+    },
+    "3": {
+      "item": "hlmod:xen_crystal_shard"
+    },
+    "4": {
+      "item": "hlmod:pu_256_ingot"
+    },
+    "5": {
+      "item": "hlmod:xen_crystal_shard"
+    },
+    "7": {
+      "item": "hlmod:xen_crystal_shard"
+    }
+  },
+  "result": {
+    "item": "hlmod:xen_crystal",
+    "count": 1
+  }
+}

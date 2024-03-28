@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.BROWN_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Blocks.BROWN_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Blocks.BROWN_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Blocks.BROWN_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Blocks.BROWN_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Blocks.BROWN_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Blocks.BROWN_MUSHROOM_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HIVEHAND"
+    },
+    "name": "hivehandrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01 ",
+    "345",
+    "6  "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_stained_glass_pane"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "3": {
+      "item": "minecraft:green_concrete"
+    },
+    "4": {
+      "item": "minecraft:green_concrete"
+    },
+    "5": {
+      "item": "minecraft:green_concrete"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "hlmod:rocket_launcher",
+    "count": 1
+  }
+}

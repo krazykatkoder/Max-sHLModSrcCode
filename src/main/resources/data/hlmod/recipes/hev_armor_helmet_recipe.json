@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_concrete"
+    },
+    "1": {
+      "item": "minecraft:orange_concrete"
+    },
+    "2": {
+      "item": "minecraft:orange_concrete"
+    },
+    "3": {
+      "item": "minecraft:spyglass"
+    },
+    "4": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "5": {
+      "item": "minecraft:spyglass"
+    },
+    "6": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "7": {
+      "item": "minecraft:black_stained_glass_pane"
+    },
+    "8": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "hlmod:hev_armor_helmet",
+    "count": 1
+  }
+}

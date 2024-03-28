@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_blackstone_pressure_plate"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:polished_blackstone_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "hlmod:ihateyou_disc",
+    "count": 1
+  }
+}

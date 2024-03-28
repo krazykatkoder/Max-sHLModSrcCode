@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "hlmod:xenianmass",
+    "minecraft:mycelium",
+    "minecraft:mud",
+    "minecraft:moss_block",
+    "minecraft:deepslate"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "ninemmpistol",
+    "customModelName": "Normal",
+    "name": "9MM Pistol",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HLWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:MP5Bullet"
+    },
+    "shootConstantly": false,
+    "usageCount": 512,
+    "actionSound": {
+      "value": "CUSTOM:ninemmshot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 10.0,
+    "bulletDamage": 0.15,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Bullet"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

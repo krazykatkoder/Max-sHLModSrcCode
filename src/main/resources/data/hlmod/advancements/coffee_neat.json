@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "hlmod:cup"
+    },
+    "title": {
+      "translate": "advancements.coffee_neat.title"
+    },
+    "description": {
+      "translate": "advancements.coffee_neat.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coffee_neat": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "hlmod:we_in_xen"
+}

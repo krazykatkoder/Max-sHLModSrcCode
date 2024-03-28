@@ -1,0 +1,46 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "m203launcher",
+    "customModelName": "Normal",
+    "name": "M203 Grenade Launcher",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HLWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:M203GrenadeAmmo"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:grenadelaunch"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 7.5,
+    "bulletPower": 7.5,
+    "bulletDamage": 7.5,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:GrenadeTexure"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "M203GrenadeProjectileHitsLivingEntity"
+    },
+    "onBulletHitsPlayer": {
+      "name": "M203GrenadeProjectileHitsLivingEntity"
+    },
+    "onBulletHitsEntity": {
+      "name": "M203GrenadeProjectileHitsLivingEntity"
+    }
+  }
+}

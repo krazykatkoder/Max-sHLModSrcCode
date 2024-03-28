@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "IMPROBABILITY WEAPON",
+    "texture": "improb",
+    "description": "1DRIVE_DESTRUCTOR - IMPROBABILITY WEAPON",
+    "creativeTab": {
+      "value": "CUSTOM:HL"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:impropable"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

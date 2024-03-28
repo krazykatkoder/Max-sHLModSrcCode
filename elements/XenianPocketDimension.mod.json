@@ -1,0 +1,54 @@
+{
+  "_fv": 47,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:XenPocket2"
+      },
+      {
+        "value": "CUSTOM:XenPocket"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.MUD"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -16774581,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "XenianPocketDimensionPlayerEntersDimension"
+    },
+    "portalFrame": {
+      "value": "Blocks.CHISELED_DEEPSLATE"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "CUSTOM:xen"
+    },
+    "enableIgniter": true,
+    "igniterName": "Xenian Pocket Dimension Portal Igniter",
+    "specialInfo": [],
+    "igniterTab": {
+      "value": "CUSTOM:HL"
+    },
+    "texture": "xenshard",
+    "portalTexture": "xendim",
+    "enablePortal": true
+  }
+}

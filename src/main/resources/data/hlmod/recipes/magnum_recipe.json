@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "345",
+    "6  "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "hlmod:steel_ingot"
+    },
+    "5": {
+      "item": "hlmod:steel_ingot"
+    },
+    "6": {
+      "item": "hlmod:blackplastic"
+    }
+  },
+  "result": {
+    "item": "hlmod:magnum_revolver",
+    "count": 1
+  }
+}

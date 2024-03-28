@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hlmod:item/bmrf_regular"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damaged": 1
+      },
+      "model": "hlmod:item/black_mesa_research_facility_0"
+    },
+    {
+      "predicate": {
+        "damaged": 0
+      },
+      "model": "hlmod:item/black_mesa_research_facility_1"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "hlmod:buckshot"
+    },
+    "1": {
+      "item": "minecraft:tnt"
+    },
+    "2": {
+      "item": "hlmod:shotgun_shell_empty"
+    }
+  },
+  "result": {
+    "item": "hlmod:shotgun_shell_full",
+    "count": 4
+  }
+}

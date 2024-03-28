@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hlmod:block/xenmass",
+    "up": "hlmod:block/xenmass",
+    "north": "hlmod:block/xenmass",
+    "east": "hlmod:block/xenmass",
+    "south": "hlmod:block/xenmass",
+    "west": "hlmod:block/xenmass",
+    "particle": "hlmod:block/xenmass"
+  },
+  "render_type": "solid"
+}

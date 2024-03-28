@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "hlmod:buck_shot_shell"
+    }
+  },
+  "result": {
+    "item": "hlmod:steelslug_shell",
+    "count": 1
+  }
+}

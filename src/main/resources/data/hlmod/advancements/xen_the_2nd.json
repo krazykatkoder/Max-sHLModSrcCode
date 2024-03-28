@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hlmod:coffee"
+    },
+    "title": {
+      "translate": "advancements.xen_the_2nd.title"
+    },
+    "description": {
+      "translate": "advancements.xen_the_2nd.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "xen_the_2nd": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "hlmod:xen_2"
+      }
+    }
+  },
+  "parent": "hlmod:welcome_to_xen"
+}

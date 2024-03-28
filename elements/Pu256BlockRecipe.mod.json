@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Pu256Ingot"
+      },
+      {
+        "value": "CUSTOM:Pu256Ingot"
+      },
+      {
+        "value": "CUSTOM:Pu256Ingot"
+      },
+      {
+        "value": "CUSTOM:Pu256Ingot"
+      },
+      {
+        "value": "CUSTOM:Uraniumingot"
+      },
+      {
+        "value": "CUSTOM:Pu256Ingot"
+      },
+      {
+        "value": "CUSTOM:Pu256Ingot"
+      },
+      {
+        "value": "CUSTOM:Pu256Ingot"
+      },
+      {
+        "value": "CUSTOM:Pu256Ingot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Pu239"
+    },
+    "name": "pu_256_block_recipe",
+    "namespace": "mod"
+  }
+}

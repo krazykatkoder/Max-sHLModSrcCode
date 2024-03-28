@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hlmod:u_235block"
+    }
+  ],
+  "result": {
+    "item": "hlmod:uraniumingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hlmod:block/w_33_warhead"
+    },
+    "facing=east": {
+      "model": "hlmod:block/w_33_warhead",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hlmod:block/w_33_warhead",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hlmod:block/w_33_warhead",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "hlmod:block/w_33_warhead",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "hlmod:block/w_33_warhead",
+      "x": 90
+    }
+  }
+}

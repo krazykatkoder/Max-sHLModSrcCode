@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "xen-inst",
+    "description": "Xen - Instrumental",
+    "creativeTab": {
+      "value": "CUSTOM:HL"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:xen_inst"
+    },
+    "lengthInTicks": 2660,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 40,
+  "ingredient": {
+    "item": "hlmod:steel_m_ix"
+  },
+  "result": "hlmod:steel_ingot"
+}

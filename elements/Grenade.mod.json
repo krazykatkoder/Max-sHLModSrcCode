@@ -1,0 +1,46 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "grenade",
+    "customModelName": "Normal",
+    "name": "Mk 2 Hand Grenade",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HLWeapons"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": "CUSTOM:Grenade"
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "block.copper.place"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Grenade"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "GrenadeProjectileHitsPlayer"
+    },
+    "onBulletHitsPlayer": {
+      "name": "GrenadeProjectileHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "GrenadeProjectileHitsPlayer"
+    }
+  }
+}

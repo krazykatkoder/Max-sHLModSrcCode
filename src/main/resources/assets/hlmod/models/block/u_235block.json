@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hlmod:block/u235block",
+    "up": "hlmod:block/u235block",
+    "north": "hlmod:block/u235block",
+    "east": "hlmod:block/u235block",
+    "south": "hlmod:block/u235block",
+    "west": "hlmod:block/u235block",
+    "particle": "hlmod:block/u235block"
+  },
+  "render_type": "solid"
+}

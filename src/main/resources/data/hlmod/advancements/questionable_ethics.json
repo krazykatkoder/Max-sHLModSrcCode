@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "hlmod:suitbattery"
+    },
+    "title": {
+      "translate": "advancements.questionable_ethics.title"
+    },
+    "description": {
+      "translate": "advancements.questionable_ethics.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "questionable_ethics": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hlmod:tau_cannon"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "hlmod:weve_got_hostiles"
+}

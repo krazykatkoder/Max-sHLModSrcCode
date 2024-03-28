@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01 ",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "hlmod:uranium_box"
+    },
+    "1": {
+      "item": "hlmod:blackplastic"
+    },
+    "3": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "4": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "5": {
+      "item": "hlmod:coil"
+    }
+  },
+  "result": {
+    "item": "hlmod:gluon_gun",
+    "count": 1
+  }
+}

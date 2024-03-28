@@ -1,0 +1,46 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "d",
+    "customModelName": "Normal",
+    "name": "Snark",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HLWeapons"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": "CUSTOM:Snark"
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "block.honey_block.place"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Snark"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "SnarkProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "SnarkProjectileHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "SnarkProjectileHitsLivingEntity"
+    }
+  }
+}

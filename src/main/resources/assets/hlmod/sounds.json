@@ -1,0 +1,146 @@
+{
+  "apotheiosis": {
+    "subtitle": "subtitles.apotheiosis",
+    "sounds": [
+      {
+        "name": "hlmod:qauntum_apotheosis_1",
+        "stream": true
+      }
+    ]
+  },
+  "xen": {
+    "subtitle": "subtitles.xen",
+    "sounds": [
+      {
+        "name": "hlmod:xen",
+        "stream": true
+      }
+    ]
+  },
+  "impropable": {
+    "subtitle": "subtitles.impropable",
+    "sounds": [
+      {
+        "name": "hlmod:impropab",
+        "stream": true
+      }
+    ]
+  },
+  "taushot": {
+    "subtitle": "subtitles.taushot",
+    "sounds": [
+      {
+        "name": "hlmod:untitled",
+        "stream": false
+      }
+    ]
+  },
+  "mp5shot": {
+    "subtitle": "subtitles.mp5shot",
+    "sounds": [
+      {
+        "name": "hlmod:untitled2",
+        "stream": false
+      }
+    ]
+  },
+  "hiveshot": {
+    "subtitle": "subtitles.hiveshot",
+    "sounds": [
+      {
+        "name": "hlmod:untitled14",
+        "stream": false
+      }
+    ]
+  },
+  "rpgshot": {
+    "subtitle": "subtitles.rpgshot",
+    "sounds": [
+      {
+        "name": "hlmod:untitled7",
+        "stream": false
+      }
+    ]
+  },
+  "grenadelaunch": {
+    "subtitle": "subtitles.grenadelaunch",
+    "sounds": [
+      {
+        "name": "hlmod:untitled15",
+        "stream": false
+      }
+    ]
+  },
+  "shotgun_blast": {
+    "subtitle": "subtitles.shotgun_blast",
+    "sounds": [
+      {
+        "name": "hlmod:untitled3",
+        "stream": false
+      }
+    ]
+  },
+  "gluonfire": {
+    "subtitle": "subtitles.gluonfire",
+    "sounds": [
+      {
+        "name": "hlmod:untitled11",
+        "stream": false
+      }
+    ]
+  },
+  "ninemmshot": {
+    "subtitle": "subtitles.ninemmshot",
+    "sounds": [
+      {
+        "name": "hlmod:untitled6",
+        "stream": false
+      }
+    ]
+  },
+  "magnumshot": {
+    "subtitle": "subtitles.magnumshot",
+    "sounds": [
+      {
+        "name": "hlmod:untitled5",
+        "stream": false
+      }
+    ]
+  },
+  "scientiststahp": {
+    "subtitle": "subtitles.scientiststahp",
+    "sounds": [
+      {
+        "name": "hlmod:untitled",
+        "stream": false
+      }
+    ]
+  },
+  "scientistdead": {
+    "subtitle": "subtitles.scientistdead",
+    "sounds": [
+      {
+        "name": "hlmod:untitledahhh",
+        "stream": false
+      }
+    ]
+  },
+  "i_hate_you": {
+    "subtitle": "subtitles.i_hate_you",
+    "sounds": [
+      {
+        "name": "hlmod:i_hate_you",
+        "stream": false
+      }
+    ]
+  },
+  "xen_inst": {
+    "subtitle": "subtitles.xen_inst",
+    "sounds": [
+      {
+        "name": "hlmod:xen_-_instrumental",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hlmod:block/xeniodiebutt",
+    "up": "hlmod:block/xeniodidetop",
+    "north": "hlmod:block/xeniumiodide",
+    "east": "hlmod:block/xeniumiodide",
+    "south": "hlmod:block/xeniumiodide",
+    "west": "hlmod:block/xeniumiodide",
+    "particle": "hlmod:block/xeniodiebutt"
+  },
+  "render_type": "solid"
+}

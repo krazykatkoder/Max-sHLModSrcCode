@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "hlmod:block/xen_2_portal_ew"
+    },
+    "axis=x": {
+      "model": "hlmod:block/xen_2_portal_ns"
+    }
+  }
+}

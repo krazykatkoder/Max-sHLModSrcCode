@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_concrete"
+    },
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "2": {
+      "item": "minecraft:orange_concrete"
+    },
+    "3": {
+      "item": "minecraft:orange_concrete"
+    },
+    "4": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "5": {
+      "item": "minecraft:orange_concrete"
+    },
+    "6": {
+      "item": "minecraft:orange_concrete"
+    },
+    "8": {
+      "item": "minecraft:orange_concrete"
+    }
+  },
+  "result": {
+    "item": "hlmod:hev_armor_leggings",
+    "count": 1
+  }
+}

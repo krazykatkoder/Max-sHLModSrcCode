@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hlmod:block/xenmass",
+    "up": "hlmod:block/xengrass",
+    "north": "hlmod:block/xengrass_side",
+    "east": "hlmod:block/xengrass_side",
+    "south": "hlmod:block/xengrass_side",
+    "west": "hlmod:block/xengrass_side",
+    "particle": "hlmod:block/xenmass"
+  },
+  "render_type": "cutout_mipped"
+}

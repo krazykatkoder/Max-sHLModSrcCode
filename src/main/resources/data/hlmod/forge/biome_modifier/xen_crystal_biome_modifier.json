@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "hlmod:xen_crystal",
+  "step": "underground_ores"
+}

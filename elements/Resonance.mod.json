@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Resonance",
+    "type": "BREAKABLE",
+    "rarity": "UNCOMMON",
+    "minLevel": 30,
+    "maxLevel": 999,
+    "damageModifier": 25,
+    "compatibleEnchantments": [],
+    "excludeEnchantments": false,
+    "compatibleItems": [],
+    "excludeItems": false,
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": false
+  }
+}

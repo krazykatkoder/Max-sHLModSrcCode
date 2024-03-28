@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01 ",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "hlmod:blackplastic"
+    },
+    "1": {
+      "item": "hlmod:blackplastic"
+    },
+    "3": {
+      "item": "hlmod:battery"
+    },
+    "4": {
+      "item": "hlmod:coil"
+    },
+    "5": {
+      "item": "hlmod:laser"
+    },
+    "6": {
+      "item": "hlmod:blackplastic"
+    },
+    "7": {
+      "item": "hlmod:blackplastic"
+    }
+  },
+  "result": {
+    "item": "hlmod:xen_2",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "xen",
+    "description": "XEN - 1DRIVE_DESTRUCTOR",
+    "creativeTab": {
+      "value": "CUSTOM:HL"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:xen"
+    },
+    "lengthInTicks": 2680,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "hlmod:mp_5"
+    },
+    "title": {
+      "translate": "advancements.weve_got_hostiles.title"
+    },
+    "description": {
+      "translate": "advancements.weve_got_hostiles.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "weve_got_hostiles": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hlmod:mp_5"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "hlmod:unforseen"
+}

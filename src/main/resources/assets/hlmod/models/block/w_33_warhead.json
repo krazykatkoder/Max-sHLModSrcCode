@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hlmod:block/pixil-frame-0_3",
+    "up": "hlmod:block/pixil-frame-0_3",
+    "north": "hlmod:block/w33top",
+    "east": "hlmod:block/w33warhead",
+    "south": "hlmod:block/w33-2",
+    "west": "hlmod:block/w33warhead",
+    "particle": "hlmod:block/pixil-frame-0_3"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hlmod:magnum_bullet"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "hlmod:magnum_casing"
+    }
+  ],
+  "result": {
+    "item": "hlmod:magnum_cartridge",
+    "count": 16
+  }
+}

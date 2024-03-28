@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_dye"
+    },
+    "1": {
+      "item": "minecraft:red_dye"
+    },
+    "2": {
+      "item": "minecraft:red_dye"
+    },
+    "3": {
+      "item": "minecraft:clay_ball"
+    },
+    "4": {
+      "item": "minecraft:clay_ball"
+    },
+    "5": {
+      "item": "minecraft:clay_ball"
+    },
+    "6": {
+      "item": "minecraft:red_dye"
+    },
+    "7": {
+      "item": "minecraft:red_dye"
+    },
+    "8": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "hlmod:plastic",
+    "count": 3
+  }
+}

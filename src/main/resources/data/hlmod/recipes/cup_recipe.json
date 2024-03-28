@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:nether_brick"
+    },
+    "2": {
+      "item": "minecraft:nether_brick"
+    },
+    "3": {
+      "item": "minecraft:black_dye"
+    },
+    "4": {
+      "item": "minecraft:nether_brick"
+    },
+    "5": {
+      "item": "minecraft:nether_brick"
+    },
+    "6": {
+      "item": "minecraft:black_dye"
+    },
+    "7": {
+      "item": "minecraft:nether_brick"
+    },
+    "8": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "item": "hlmod:cup",
+    "count": 1
+  }
+}

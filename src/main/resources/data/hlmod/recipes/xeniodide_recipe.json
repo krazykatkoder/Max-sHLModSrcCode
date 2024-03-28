@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:raw_gold_block"
+    },
+    "1": {
+      "item": "hlmod:xen_crystal_shard"
+    },
+    "2": {
+      "item": "minecraft:raw_gold_block"
+    },
+    "3": {
+      "item": "hlmod:steel_ingot"
+    },
+    "4": {
+      "item": "minecraft:raw_gold_block"
+    },
+    "5": {
+      "item": "hlmod:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "hlmod:xenium_idiode",
+    "count": 1
+  }
+}

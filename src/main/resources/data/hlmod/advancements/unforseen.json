@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "hlmod:crowbar"
+    },
+    "title": {
+      "translate": "advancements.unforseen.title"
+    },
+    "description": {
+      "translate": "advancements.unforseen.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unforseen": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hlmod:crowbar"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "hlmod:hev_mk_4"
+}

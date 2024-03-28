@@ -1,0 +1,40 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "gluongun",
+    "customModelName": "Normal",
+    "name": "Gluon Gun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HLWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:U235Nugget"
+    },
+    "shootConstantly": true,
+    "usageCount": 256,
+    "actionSound": {
+      "value": "CUSTOM:gluonfire"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "GluonGunRangedItemUsed"
+    },
+    "bulletPower": 2.0,
+    "bulletDamage": 12.5,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:GluonFire"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "HL Ingredients",
+    "icon": {
+      "value": "CUSTOM:Mp5casing"
+    },
+    "showSearch": false
+  }
+}

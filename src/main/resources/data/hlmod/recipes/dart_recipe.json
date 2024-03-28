@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone"
+    },
+    "1": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "2": {
+      "item": "hlmod:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "hlmod:tranquilizer_dart",
+    "count": 16
+  }
+}

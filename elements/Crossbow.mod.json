@@ -1,0 +1,43 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "d2",
+    "customModelName": "Normal",
+    "name": "Tranquilizer Crossbow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HLWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:TranquilizerDart"
+    },
+    "shootConstantly": false,
+    "usageCount": 1024,
+    "actionSound": {
+      "value": "block.wooden_trapdoor.open"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.5,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:TranquilizerDart"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "CrossbowProjectileHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "CrossbowProjectileHitsPlayer"
+    }
+  }
+}

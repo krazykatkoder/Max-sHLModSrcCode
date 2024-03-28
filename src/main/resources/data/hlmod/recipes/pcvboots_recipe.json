@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:copper_ingot"
+    },
+    "2": {
+      "item": "minecraft:copper_ingot"
+    },
+    "3": {
+      "item": "minecraft:green_concrete"
+    },
+    "4": {
+      "item": "minecraft:netherite_boots"
+    },
+    "5": {
+      "item": "minecraft:green_concrete"
+    },
+    "6": {
+      "item": "minecraft:green_concrete"
+    },
+    "7": {
+      "item": "minecraft:gold_ingot"
+    },
+    "8": {
+      "item": "minecraft:green_concrete"
+    }
+  },
+  "result": {
+    "item": "hlmod:pcv_vest_boots",
+    "count": 1
+  }
+}

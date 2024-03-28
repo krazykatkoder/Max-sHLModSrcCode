@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hlmod:block/blank",
+    "up": "hlmod:block/blank",
+    "north": "hlmod:block/blank",
+    "east": "hlmod:block/blank",
+    "south": "hlmod:block/satchel",
+    "west": "hlmod:block/blank",
+    "particle": "hlmod:block/blank"
+  },
+  "render_type": "cutout"
+}

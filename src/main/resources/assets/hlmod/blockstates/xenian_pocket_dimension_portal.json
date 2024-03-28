@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "hlmod:block/xenian_pocket_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "hlmod:block/xenian_pocket_dimension_portal_ns"
+    }
+  }
+}

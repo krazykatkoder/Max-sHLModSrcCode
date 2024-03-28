@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "1": {
+      "item": "minecraft:yellow_dye"
+    },
+    "2": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "3": {
+      "item": "hlmod:blackplastic"
+    },
+    "4": {
+      "item": "hlmod:u_235block"
+    },
+    "5": {
+      "item": "hlmod:blackplastic"
+    },
+    "6": {
+      "item": "hlmod:blackplastic"
+    },
+    "7": {
+      "item": "hlmod:blackplastic"
+    },
+    "8": {
+      "item": "hlmod:blackplastic"
+    }
+  },
+  "result": {
+    "item": "hlmod:uranium_box",
+    "count": 1
+  }
+}

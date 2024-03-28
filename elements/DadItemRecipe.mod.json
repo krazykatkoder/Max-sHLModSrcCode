@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Neutronium"
+      },
+      {
+        "value": "CUSTOM:Uraniumingot"
+      },
+      {
+        "value": "CUSTOM:Neutronium"
+      },
+      {
+        "value": "CUSTOM:Uraniumingot"
+      },
+      {
+        "value": "CUSTOM:Neutronium"
+      },
+      {
+        "value": "CUSTOM:Uraniumingot"
+      },
+      {
+        "value": "CUSTOM:Neutronium"
+      },
+      {
+        "value": "CUSTOM:Uraniumingot"
+      },
+      {
+        "value": "CUSTOM:Neutronium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DadItem"
+    },
+    "name": "dad_item_recipe",
+    "namespace": "mod"
+  }
+}

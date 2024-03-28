@@ -1,0 +1,24 @@
+{
+  "type": "hlmod:xen_crystal",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:amethyst_cluster",
+            "Properties": {
+              "facing": "up",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "hlmod:xen_crystal"
+        }
+      }
+    ]
+  }
+}

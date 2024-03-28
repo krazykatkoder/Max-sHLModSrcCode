@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "hlmod:grenade_texure"
+    },
+    "1": {
+      "item": "minecraft:tnt"
+    },
+    "2": {
+      "item": "hlmod:he_shell"
+    }
+  },
+  "result": {
+    "item": "hlmod:m_203_grenade_ammo",
+    "count": 8
+  }
+}

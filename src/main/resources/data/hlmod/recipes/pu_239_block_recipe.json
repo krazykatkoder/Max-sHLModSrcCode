@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hlmod:pu_256_ingot"
+    },
+    "1": {
+      "item": "hlmod:pu_256_ingot"
+    },
+    "2": {
+      "item": "hlmod:pu_256_ingot"
+    },
+    "3": {
+      "item": "hlmod:pu_256_ingot"
+    },
+    "4": {
+      "item": "hlmod:uraniumingot"
+    },
+    "5": {
+      "item": "hlmod:pu_256_ingot"
+    },
+    "6": {
+      "item": "hlmod:pu_256_ingot"
+    },
+    "7": {
+      "item": "hlmod:pu_256_ingot"
+    },
+    "8": {
+      "item": "hlmod:pu_256_ingot"
+    }
+  },
+  "result": {
+    "item": "hlmod:pu_239",
+    "count": 4
+  }
+}

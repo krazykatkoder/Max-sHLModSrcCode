@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hlmod:m_203_buck_shot_mod"
+    }
+  ],
+  "result": {
+    "item": "hlmod:m_203_steel_slug_mod",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "hlmod:uranium_box"
+    },
+    "title": {
+      "translate": "advancements.lambda_core.title"
+    },
+    "description": {
+      "translate": "advancements.lambda_core.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lambda_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hlmod:gluon_gun"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "hlmod:questionable_ethics"
+}

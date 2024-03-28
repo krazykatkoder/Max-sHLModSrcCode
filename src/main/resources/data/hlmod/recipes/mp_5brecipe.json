@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "hlmod:bullet"
+    },
+    "1": {
+      "item": "minecraft:tnt"
+    },
+    "2": {
+      "item": "hlmod:mp_5casing"
+    }
+  },
+  "result": {
+    "item": "hlmod:mp_5_bullet",
+    "count": 16
+  }
+}
